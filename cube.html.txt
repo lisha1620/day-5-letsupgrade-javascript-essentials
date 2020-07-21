@@ -1,0 +1,8 @@
+var arr=[];
+arr.forEach((e1)=>{
+ console.log("enter positive number");
+})
+let odd=arr.filter(e1=>e1%2==1);
+let oddcube=arr.filter(e1=>e1%2==1).map(e1=>e1**3);
+console.log(odd);
+console.log(oddcube);
